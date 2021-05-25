@@ -1,0 +1,132 @@
+# tipos de datos en python
+# tipo de dato string entero y flotante
+
+# string= "hola"
+# Entero = 5
+# flotante = 5.5
+# Complejo = 1j
+
+
+# declaracion de listas
+# lista = [1, 2, 3] #las lista son cambiables a diferencia de las tuplas no#
+# lista2 = ['saludo:hola mundo', 'saludo2 : hola wey']
+# tupla = ('hola', 'mundo', 'somos', 'una tupla')
+
+# diccionario = {
+#     'Dragones': 'black'
+#     }
+
+# print (diccionario.get('Dragones'))
+# print (diccionario ["Dragones"])
+
+# diccionario anidado
+
+# diccionario = {
+#     "larry" : {
+#         "Age" : " 20 ",
+#         "cargo": "junior enginner"}
+
+# }
+# print (diccionario.get("larry"))
+
+
+#             METODOS 
+
+# lista.append = agrega elemento
+# lista.clear = limpia elemtos en una variable
+# lista.copy = copia una variable, lista, tupla
+# lista.count() = cuenta cuantas veces se repite un elemnto
+# len(lista) = cuenta cuantos elementos hay en una lista
+# lista.pop() elimina el ultimo elemento
+# lista.remove () elimina un elemnto de la lista
+# lista.reverse = cambia al revez el orden de una lista
+# lista.sort = ordena una lista pero deben ser del mismo tipo de dato
+# tupla.index () muestra en que posicion se encuentra un elemento
+# diccionario.get("nombre de el elemento")
+
+# FUNCIONES
+
+# try = captura una logica 
+# except = captura el error de una logica
+# exit() cierra la operacion
+# if= si cumple una condicion
+# elif= o si cumple otra condicion
+# else=si no cumple las condiciones anteriores
+
+# BUCLES
+# while = mientras se cumplan la condicion se ejecutara while
+# for = recorrer o itinerar
+# break = detener el bucle
+# continue = salta una linea si el if se cumple
+
+#     i=0
+#     While i<5
+#         i += 1
+#         if i == 3
+#         continue
+#     print ("i")
+
+# para acceder a un elemento en python usar sintaxis siguiente
+# diccionarios y listas
+
+# Lista = [1,2,3]
+# print = (lista(1))
+
+# diccionario = ['dragon' : 'azul']
+# print (diccionarios.get ('dragon'))
+# print (diccionarios ["dragon"])
+
+
+
+# asignar elementos listas luego de definir
+# diccionarios ["nombre"] = "fluffy"
+
+# OTRAS NOTAS DE SHURMAN
+
+
+# lista = ['hola', 'mundo', 'chanchito', 'feliz', 'dragones']
+
+# if lista.count(dato) > 0:
+#     print('El dato existe:', dato)
+# else:
+#     print('El dato no existe :(', dato)
+
+# primero = input('Ingrese primer número: ')
+
+# try:
+#     primero = int(primero)
+# except:
+#     primero = 'chanchito feliz'
+
+# if primero == 'chanchito feliz':
+#     print('El valor ingresado no es un entero')
+#     exit()
+
+# segundo = input('Ingrese segundo número: ')
+
+# try:
+#     segundo = int(segundo)
+# except:
+#     segundo = 'chanchito feliz'
+
+# if segundo == 'chanchito feliz':
+#     print('El valor ingresado no es un entero')
+#     exit()
+
+# simbolo = input('ingrese operación: ')
+
+# if simbolo == '+':
+#     print('Suma:', primero + segundo)
+# elif simbolo == '-':
+#     print('Resta:', primero - segundo)
+# elif simbolo == '*':
+#     print('Multiplicación:', primero * segundo)
+# elif simbolo == '/':
+#     print('División:', primero / segundo)
+# else:
+#     print('El símbolo ingresado no es válido')
+
+
+# CLASES AL FIIIIIINNNN XD :V 
+
+

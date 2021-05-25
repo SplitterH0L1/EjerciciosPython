@@ -1,0 +1,41 @@
+notas de mysql
+
+#notas BASEDATA
+
+Create database "nombre"; = para crear bases de datos
+drop database "nombre"; = para borrar base de datos
+use "nombre"; = para usar una base de datos
+create table usuario (id int,email varchar (255), username varchar(50)); = para crear una tabla con las siguientes caracteristicas 
+varchar = significa palabra
+
+#notas tablas
+
+drop table "nombredelatabla"; = para borrar una tabla
+
+alter "" "nombredelatabla" add "nombre_de_la_columna" "tipo_de_dato"; = para agregar una columna
+
+alter "" "nombredelatabla" drop column "nombre_de_la_columna"; = para borrar una columna de la tabla
+
+alter "" "nombredelatabla" modify column "nombre_de_la_columna" varchar (50); = para modificar una columna en este caso la cantidad de palabras que puede contener
+
+alter "" "nombredelatabla" add primary key (id); = setea una id en la tabla no incrementable
+
+alter "" "nombredelatabla" modify column id int AUTO_INCREMENT; = modifica la columna de la id (que en este caso es una llave primaria) y la vuelve autoincrementable
+
+insert into "nombredelatabla" (email, username) = son los datos que queremos ingresar para el into
+
+values ('email@gmail.com', 'splitterh0l1') = para insertar datos en una tabla 
+
+delete from "nombredelatabla" where "nombre_de_la_columna" = 'dato' == para borrar un dato en la columna de una tabla
+
+select * from "nombredelatabla"; = muestra todas las columna de una tabla
+
+select * from "nombredelatabla" where "nombre_de_la_columna" = para mostras una columna en especifico
+
+update "nombredelatabla" set "nombre_de_la_columna" = 32 where id = "numero" = para actualizar un dato en una columna
+
+delete from nombredelatabla where id = "1"
+
+nota2= borrar comillas es solo un ejemplo
+nota3= se pueden aplicar operadores aritmeticos tambien
+
