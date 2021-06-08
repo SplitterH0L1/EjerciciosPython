@@ -1,0 +1,58 @@
+body{
+    background-color: rgba(213, 213, 213, 0.389);
+}
+
+#Cab {
+    color: rgba(0, 0, 0, 0.749);
+    margin: 8px;
+    padding: 8px;
+    border-style: groove;
+    border-color: rgba(163, 147, 147, 0.116);
+    border-radius: 8px;
+    border-width: 4px;
+}
+
+.P{
+    
+    color: rgba(0, 0, 0, 0.735);
+    margin: 8px;
+    padding: 8px;
+    border-style: groove;
+    border-color: rgba(163, 147, 147, 0.116);
+    border-radius: 8px;
+    border-width: 4px;
+}
+
+#Button{
+    margin: 8px;
+    color: rgba(247, 250, 252, 0.906);
+    border-radius: 2px;
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgba(0, 0, 0, 0.368);
+    height: 30px;
+    width: 70px;
+    background-color: rgb(13, 203, 241);
+    border-radius: 8px;
+}
+
+#Button2{
+    border-radius: 2px;
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgba(0, 0, 0, 0.368);
+    height: 30px;
+    width: 70px;
+    background-color: rgba(175, 175, 170, 0.661);
+    border-radius: 8px;
+}
+
+.B{
+    margin: 8px;
+    border-width: 4px;
+    padding: 8px;
+    border-style: groove;
+    border-color: #eeeee736;
+    background-color: rgba(255, 255, 255, 0.748);
+    border-radius: 8px;
+}

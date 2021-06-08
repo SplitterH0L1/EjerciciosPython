@@ -1,5 +1,38 @@
 body{
+    background-color: #eee;
+}
+
+.caja {
+    margin: 8px;
+    padding: 8px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #faa;
+    border-left: 6px solid #afa;
+    background-color: #aaf;
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
+    color: #575757;
+}
+
+/* body{
+    background-color: #c74a4a;
+
+}
+#parrafo{
+    color: #850f0f;
+}
+
+.etiqueta{
+    color: rgb(131, 193, 32);
+}
+ */
+
+
+
+/* body{
     background-color: rgb(190, 191, 167);
     color: darkmagenta;
     
-}
+} */
