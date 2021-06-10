@@ -2,7 +2,10 @@ body{
     background-color: #eee;
 }
 
-.caja {
+
+
+
+/* .caja {
     margin: 8px;
     padding: 8px;
     border-style: solid;
@@ -14,7 +17,7 @@ body{
     height: 100px;
     width: 100px;
     color: #575757;
-}
+} */
 
 /* body{
     background-color: #c74a4a;

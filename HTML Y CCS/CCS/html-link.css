@@ -1,0 +1,31 @@
+body{
+    background-color: #eee;
+}
+
+a {
+color:rgb(204, 59, 83);
+background-color: rgba(157, 79, 230, 0.429);
+padding: 15px;
+margin: 15px;
+border-radius: 8px;
+}
+
+
+a:link{
+    color: rgb(241, 50, 82);
+    text-decoration: none;
+}
+
+a:visited{
+    color:rgba(0, 0, 255, 0.218)
+}
+
+a:active{
+    color:black
+}
+
+a:hover{
+    color:rgb(231, 24, 24);
+    text-decoration: underline;
+    background-color: rgba(0, 255, 255, 0.484);
+}
