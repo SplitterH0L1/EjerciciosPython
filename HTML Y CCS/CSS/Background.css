@@ -1,0 +1,45 @@
+body{
+    background-color: #eee;
+}
+
+
+.box {
+    position: relative;
+    left: 50px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    transition-delay: 0.1s 0.5s;
+    /* transform: rotate(20deg) translate(50px, 100px) ; */
+}
+
+.box:hover {
+
+    transform: scale(1.05, 1.05);
+    /* width: 150px; */
+
+    /* transform: rotate(20deg) translate(50px, 100px) scale(0.9, 0.9); */
+}
+
+/* height: 400px;
+    background: green url('https://placekitten.com/300/300') no-repeat left top fixed;
+    background-size: cover;
+     */
+
+     /* .fondo{
+        background-image: repeating-linear-gradient(0deg,rgba(255,0,0,1) 10%, tomato 20%);
+    } */
+    
+    
+/* .box {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2) inset;
+
+}
+
+.text {
+    color: white;
+    text-shadow: 0px 1px 2px rgba(255, 0, 0, 0.9);
+} */

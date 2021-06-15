@@ -1,0 +1,75 @@
+body {
+    background-color: #eee;
+}
+
+@font-face {
+    font-family: "Aqua-grotesque";
+    src: url(aqua.ttf);
+}
+
+li {
+    padding: 4px;
+    margin: 8px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    height: 50px;
+    width: 300px;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 8px;
+    transition: 0.4s;
+    transition-delay: 1ms;
+    
+}
+
+.a {
+    border-left:solid tomato;
+}
+
+.a:hover {
+    transform: scale(1.05, 1.05);
+
+}
+
+.b {
+    border-left: solid purple;
+}
+
+.b:hover {
+    box-shadow: 2px 6px 22px rgba(0, 0, 0, 0.721);
+    transform: scale(1.05, 1.05);
+}
+
+.c {
+    border-left: solid gold;
+}
+
+.c:hover {
+   
+    background-color: rgba(255, 166, 0, 0.177);
+    box-shadow: 2px 6px 22px rgb(0, 0, 0, 0.4);
+    transform: scale(1.05, 1.05);
+}
+
+.d{
+    transition: 0s;
+    transition-delay: 0s;
+    opacity: 0%;
+}
+
+.d:hover {
+    transition: 0.4s;
+    transition-delay: 1ms;
+    background-color: yellow;
+    opacity: 100%;
+    border-left: solid rebeccapurple;
+    background-image: url('https://static1.cbrimages.com/wordpress/wp-content/uploads/2017/12/super-saiyan.jpg');
+    background-size: contain;
+    color:rgb(255, 255, 0);
+    text-shadow: 1px 1px 4px rgb(0, 0, 0);
+    font-size: 30px;
+    font-family:"aqua-grotesque";
+}
+
